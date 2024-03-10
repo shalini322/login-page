@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login Page</title>
+    <style>
+        body{
+            background-color: rgb(122, 76, 19);
+            padding-top: 120px;
+            padding-left: 545px;
+            align-items: center;
+        }
+        .heading{
+            font-family: 'Poppins',sans-serif;
+            align-items: center;
+            padding-left: 110px;
+            color: #000908;
+            padding-bottom: 10px;
+            letter-spacing: 0.03pc;
+        }
+        input{
+            font-family: 'Courier New', Courier, monospace;
+        }
+        form{
+            height: 520px;
+            width: 400px;
+            background-color: rgb(165, 129, 85);
+            position: fixed;
+            transform: translate(-50%,-50%);
+            top: 50%;
+            left: 50%;
+            border-radius: 10px;
+            backdrop-filter: blur(20px);
+            border: 2px solid rgba(255,255,255,0.1);
+            box-shadow: 0 0 40px rgba(8,7,16,0.9);
+            padding: 50px 35px;
+            align-items: center;
+        }
+        label{
+            display: block;
+            margin-top: 30px;
+            font-size: 16px;
+            font-weight: 500;
+            padding-left: 35px;
+            font-size: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            letter-spacing: 0.04pc; 
+            justify-content: center;
+            
+        }
+        input{
+            display: block;
+            height: 50px;
+            width: 100%;
+            background-color: rgba(255,255,255,0.07);
+            border-radius: 3px;
+            margin-top: 8px;
+            font-size: 14px;
+            font-weight: 300;
+            padding-top:3px;
+        }
+        ::placeholder{
+            padding-left: 45px;
+            border-radius: 5px;
+            top: 10px;        
+            display: flex;
+            font-size: 20px;
+            font-family:Helvetica, sans-serif;
+            color: rgb(76, 42, 8);
+            letter-spacing: 0.03pc;
+            padding-bottom: 30px;
+        }
+        .login{
+            height: 50px;
+            width: 100%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            border: none;
+            margin-bottom: 40px;
+            background-color: rgb(89, 66, 15);
+        }
+        .login:hover{
+            background-color: bisque;
+            cursor:pointer;
+        }
+        .or{
+            font-size: 18px;
+            font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            padding-left: 160px;
+            margin-bottom: 20px;
+        }
+
+        .social{
+            margin-top: 30px;
+            display: flex;
+        }
+        .social div{
+            background: rgb(89, 66, 15);
+            width: 170px;
+            border-radius: 7px;
+            padding-top: 5px  ;
+            height: 35px;
+            color: #eaf0fb;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        .social div:hover{
+            background-color: rgba(255,255,255);
+            cursor: pointer;
+        }
+        .social .fb{
+            margin-left: 55px;
+        }
+    </style>
+</head>
+<body>
+   <form>
+    <div class="box">
+        <div class="heading">
+            <h1> Login Here </h1> 
+        </div> 
+        <label for="username"></label>
+        <input type="text" placeholder="Email or Phone" id="username">
+        <br>
+        <label for="password"></label>
+        <input type="password" placeholder="Password" id="password">
+    </div>
+    <br>
+    <br>
+    <br>
+    <button class="login">Login Now</button>
+    <div class="or">
+        Login With
+    </div>
+    <div class="social">
+        <div class="go">
+            <div class="gfb"> Google </div>
+        </div>
+        <div class="fb">
+            <div class="gfb"> Facebook </div>
+        </div>
+    </div>
+    
+   </form> 
+   
+</body>
+</html>
